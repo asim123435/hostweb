@@ -1,0 +1,117 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0.6%;
+    padding: 0%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+*{
+    box-sizing: border-box;
+}
+.topbar{
+    position: relative;
+    z-index: 1;
+}
+.column{
+    background-color: white;
+    float: left;
+    width: auto;
+    padding: 15px;
+}
+.c1{
+    border-radius: 10px 0px 0px 10px;
+    width: 20%;
+    text-align: left;
+}
+.c2{
+    width: 60%;
+    text-align: center;
+}
+.c3{
+    border-radius: 0px 10px 10px 0px;
+    width: 20%;
+    text-align: right;
+}
+.links{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: rgb(56, 55, 55);
+}
+.links:hover{
+    color: blue;
+    cursor: pointer;
+}
+.icon{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(21, 171, 216);
+}
+.icon:hover{
+    color: blue;
+    cursor: pointer;
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    width: 15%;
+    margin-top: 1rem;
+    text-align: left;
+    padding: 8px;
+    margin-left: 22%;
+    border-radius: 5px;
+}
+.dropdown_menu_item{
+    padding: 8px;
+}
+.dropdown_menu_item:hover{
+    padding-left: 15px;
+    cursor: pointer;
+    color: rgb(22, 158, 236);
+}
+.user_account_menu{
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    width: 15%;
+    padding:8px;
+    text-align: left;
+    margin-top: 1rem;
+    border-radius: 5px;
+    right: 10px;
+}
+.account_menu_links{
+    padding:8px
+}
+.account_menu_links:hover{
+    cursor: pointer;
+    color: rgb(14, 150, 14);
+}
+.title{
+    padding-top: 20%;
+}
+.title_name{
+    font-size: 60px;
+    color: white;
+}
+.title_btn li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    min-width: 20%;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
